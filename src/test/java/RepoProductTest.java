@@ -8,7 +8,6 @@ public class RepoProductTest {
     Smartphone smartphone1 = new Smartphone(5, "Айфон", 80_000, "Apple");
 
     private RepoProduct repo = new RepoProduct();
-    private ManagerProduct manager = new ManagerProduct(repo);
 
     @Test
     public void removeIdTest(){
